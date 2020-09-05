@@ -64,7 +64,7 @@ const pagination = (model) => {
      * -> end = page * limit = 16
      * => Slice to new array with all of elements between [8,16];
      */
-    // Test
+    
     const start =  (page - 1) * limit
     const end = page * limit;
     const result  = {}
